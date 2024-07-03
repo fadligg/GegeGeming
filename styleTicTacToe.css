@@ -1,0 +1,60 @@
+body{
+    display: grid;
+    place-items: center;
+    background-image: url('https://i.pinimg.com/736x/b9/ea/4e/b9ea4e526fb0fc0fd8038ac713fbb881.jpg');
+    background-color: aqua;
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+h1{
+    font-family: Anonymous Pro, sans-serif;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    margin-right: 20px;
+} 
+#restartBtn{
+    background-color: rgb(13, 196, 68);
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    line-height: 30px;
+    width: 150px;
+}
+button #restartBtn :hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+#backBtn{
+    line-height: 30px;
+    width: 150px;
+    place-items: center;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+a :hover{
+    cursor: pointer;
+    opacity: 70%;
+}

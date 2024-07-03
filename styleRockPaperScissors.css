@@ -1,0 +1,68 @@
+*{
+    font-family: Pixelify Sans, sans-serif;
+}
+body{
+    display: grid;
+    place-items: center;
+    background-color: aqua;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/692/257/non_2x/colorful-rock-paper-scissors-vector-pattern.png');
+    overflow: hidden;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+#gameContainer{
+    margin-top: 100px;
+    font-family: 'Times', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgb(255, 255, 255);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(168, 168, 168, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(117, 116, 116, 0.75);
+    border: 1px solid rgb(0, 0, 0);
+    background-color: lightgrey;
+    text-align: center;
+}
+#playerText{
+    -webkit-text-stroke: 0.3px black;
+    color: blue;
+    opacity: 75%;
+}
+#computerText{
+    -webkit-text-stroke: 0.3px black;
+    color: red;
+    opacity: 75%;
+}
+#resultText{
+    color: aliceblue;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 0.3px rgb(0, 0, 0);
+}
+#backContainer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+}
+#backBtn{   
+    line-height: 30px;
+    width: 150px;
+    place-items: center;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+a :hover{
+    cursor: pointer;
+    opacity: 90%;
+}
